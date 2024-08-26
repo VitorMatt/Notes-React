@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+
+    margin: auto;
+    background-color: #024959;
+    font-family: "Roboto", sans-serif;
+}
+
+*:focus {
+
+    outline: none;
+}
+
+div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+}
+
+h1 {
+    
+    color: #012E40;
+    font-size: 35px;
+    margin-right: 200px;
+}
+
+form {
+
+    display: flex;
+}
+
+form button {
+
+    margin-top: 2px;
+    height: 50px;
+    width: 70px;
+    border-radius: 5px;
+    padding: 1%;
+    border: 1px solid black;
+    background-color: #3CA6A6;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+form button:hover {
+
+    background-color: #012E40;
+    color: white;
+    transition: 0.5s;
+}
+
+.title {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+img.icon {
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 110px;
+    width: 60px;
+    height: 60px;
+}
+
+#inpt {
+
+    border: 1px solid black;
+    border-radius: 0 12px 12px 12px;
+    height: 50px;
+    width: 400px;
+    margin-right: 20px;
+    background-color: #F2E3D5;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.notes {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.notes span {
+
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #3CA6A6;
+}
+
+.notes img {
+
+    margin-top: 80px;
+    border-radius: 200px;
+}
+
+#inpt:hover {
+
+    background-color: #012E40;
+    color: black;
+    transition: 0.5s;
+}
+
+.allNotes {
+
+    width: 100%;
+    margin-top: 30px;
+}
+
+.note {
+
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #026773;
+    padding: 2%;
+    border: none;
+    border-radius: 0 12px 12px 12px;
+}
+
+.note span {
+
+    width: 100%;
+}
+
+.note:hover {
+
+    background-color: #3CA6A6;
+    transition: 0.7s;
+}
+
+.note button {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-left: 5px;
+    border: 0.5px solid black;
+    padding: 1%;
+    width: 80px;
+    height: 30px;
+}
+
+.note button:hover {
+
+    background-color: #012E40;
+    color: white;
+    transition: 0.5s;
+}
+
+.noteDone {
+
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #012E40;
+    opacity: 0.5;
+    padding: 2%;
+    border: none;
+    border-radius: 0 12px 12px 12px;
+}
+
+.noteDone span {
+
+    width: 100%;
+    text-decoration: line-through;
+}
+
+.noteDone button {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-left: 5px;
+    border: 0.5px solid black;
+    padding: 1%;
+    width: 80px;
+    height: 30px;
+}
+
+.noteDone button:hover {
+
+    background-color: #012E40;
+    color: white;
+    transition: 0.5s;
+}
+
+.noteDone img {
+
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.deleteAll {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 0.5px solid black;
+    padding: 1%;
+    margin-top: 40px;
+    margin-left: 45%;
+    width: 80px;
+    height: 30px;
+    color: red;
+}
+
+.deleteAll:hover {
+
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
