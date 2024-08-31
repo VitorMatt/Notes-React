@@ -25,8 +25,12 @@ Primeiro você precisará clonar meu repositório com o seguinte comando:
 Agora é simples, você só precisa acessar o comando windows do seu computador e rodar o projeto.
 Certifique-se de estar na pasta 'src'.
 
-[npm run dev]
+```git
+npm run dev
+```
 (Para rodar a página.)
 
-[http://localhost:5173/]
+```git
+http://localhost:5173/
+```
 (Para acessar a página).
