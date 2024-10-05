@@ -232,3 +232,11 @@ img.icon {
     color: white;
     transition: 0.5s;
 }
+
+@media screen and (max-width: 900px) {
+
+    div {
+
+        width: 80%;
+    }
+}
